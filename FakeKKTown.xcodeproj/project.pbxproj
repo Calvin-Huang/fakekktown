@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FE86691D127B60007AEF6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE86681D127B60007AEF6C /* AppDelegate.swift */; };
+		18FE866B1D127B60007AEF6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE866A1D127B60007AEF6C /* ViewController.swift */; };
+		18FE866E1D127B60007AEF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE866C1D127B60007AEF6C /* Main.storyboard */; };
+		18FE86701D127B60007AEF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE866F1D127B60007AEF6C /* Assets.xcassets */; };
+		18FE86731D127B60007AEF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE86711D127B60007AEF6C /* LaunchScreen.storyboard */; };
+		18FE867E1D127B61007AEF6C /* FakeKKTownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE867D1D127B61007AEF6C /* FakeKKTownTests.swift */; };
+		18FE86891D127B61007AEF6C /* FakeKKTownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE86881D127B61007AEF6C /* FakeKKTownUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FE867A1D127B61007AEF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FE865D1D127B60007AEF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE86641D127B60007AEF6C;
+			remoteInfo = FakeKKTown;
+		};
+		18FE86851D127B61007AEF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FE865D1D127B60007AEF6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FE86641D127B60007AEF6C;
+			remoteInfo = FakeKKTown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FE86651D127B60007AEF6C /* FakeKKTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeKKTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE86681D127B60007AEF6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FE866A1D127B60007AEF6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FE866D1D127B60007AEF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FE866F1D127B60007AEF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FE86721D127B60007AEF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FE86741D127B60007AEF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE86791D127B61007AEF6C /* FakeKKTownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeKKTownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE867D1D127B61007AEF6C /* FakeKKTownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeKKTownTests.swift; sourceTree = "<group>"; };
+		18FE867F1D127B61007AEF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE86841D127B61007AEF6C /* FakeKKTownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeKKTownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE86881D127B61007AEF6C /* FakeKKTownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeKKTownUITests.swift; sourceTree = "<group>"; };
+		18FE868A1D127B61007AEF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FE86621D127B60007AEF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE86761D127B61007AEF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE86811D127B61007AEF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FE865C1D127B60007AEF6C = {
+			isa = PBXGroup;
+			children = (
+				18FE86671D127B60007AEF6C /* FakeKKTown */,
+				18FE867C1D127B61007AEF6C /* FakeKKTownTests */,
+				18FE86871D127B61007AEF6C /* FakeKKTownUITests */,
+				18FE86661D127B60007AEF6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FE86661D127B60007AEF6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FE86651D127B60007AEF6C /* FakeKKTown.app */,
+				18FE86791D127B61007AEF6C /* FakeKKTownTests.xctest */,
+				18FE86841D127B61007AEF6C /* FakeKKTownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FE86671D127B60007AEF6C /* FakeKKTown */ = {
+			isa = PBXGroup;
+			children = (
+				18FE86681D127B60007AEF6C /* AppDelegate.swift */,
+				18FE866A1D127B60007AEF6C /* ViewController.swift */,
+				18FE866C1D127B60007AEF6C /* Main.storyboard */,
+				18FE866F1D127B60007AEF6C /* Assets.xcassets */,
+				18FE86711D127B60007AEF6C /* LaunchScreen.storyboard */,
+				18FE86741D127B60007AEF6C /* Info.plist */,
+			);
+			path = FakeKKTown;
+			sourceTree = "<group>";
+		};
+		18FE867C1D127B61007AEF6C /* FakeKKTownTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FE867D1D127B61007AEF6C /* FakeKKTownTests.swift */,
+				18FE867F1D127B61007AEF6C /* Info.plist */,
+			);
+			path = FakeKKTownTests;
+			sourceTree = "<group>";
+		};
+		18FE86871D127B61007AEF6C /* FakeKKTownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FE86881D127B61007AEF6C /* FakeKKTownUITests.swift */,
+				18FE868A1D127B61007AEF6C /* Info.plist */,
+			);
+			path = FakeKKTownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FE86641D127B60007AEF6C /* FakeKKTown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE868D1D127B61007AEF6C /* Build configuration list for PBXNativeTarget "FakeKKTown" */;
+			buildPhases = (
+				18FE86611D127B60007AEF6C /* Sources */,
+				18FE86621D127B60007AEF6C /* Frameworks */,
+				18FE86631D127B60007AEF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeKKTown;
+			productName = FakeKKTown;
+			productReference = 18FE86651D127B60007AEF6C /* FakeKKTown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FE86781D127B61007AEF6C /* FakeKKTownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE86901D127B61007AEF6C /* Build configuration list for PBXNativeTarget "FakeKKTownTests" */;
+			buildPhases = (
+				18FE86751D127B61007AEF6C /* Sources */,
+				18FE86761D127B61007AEF6C /* Frameworks */,
+				18FE86771D127B61007AEF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE867B1D127B61007AEF6C /* PBXTargetDependency */,
+			);
+			name = FakeKKTownTests;
+			productName = FakeKKTownTests;
+			productReference = 18FE86791D127B61007AEF6C /* FakeKKTownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FE86831D127B61007AEF6C /* FakeKKTownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FE86931D127B61007AEF6C /* Build configuration list for PBXNativeTarget "FakeKKTownUITests" */;
+			buildPhases = (
+				18FE86801D127B61007AEF6C /* Sources */,
+				18FE86811D127B61007AEF6C /* Frameworks */,
+				18FE86821D127B61007AEF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FE86861D127B61007AEF6C /* PBXTargetDependency */,
+			);
+			name = FakeKKTownUITests;
+			productName = FakeKKTownUITests;
+			productReference = 18FE86841D127B61007AEF6C /* FakeKKTownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FE865D1D127B60007AEF6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CapsLock;
+				TargetAttributes = {
+					18FE86641D127B60007AEF6C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					18FE86781D127B61007AEF6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18FE86641D127B60007AEF6C;
+					};
+					18FE86831D127B61007AEF6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18FE86641D127B60007AEF6C;
+					};
+				};
+			};
+			buildConfigurationList = 18FE86601D127B60007AEF6C /* Build configuration list for PBXProject "FakeKKTown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FE865C1D127B60007AEF6C;
+			productRefGroup = 18FE86661D127B60007AEF6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FE86641D127B60007AEF6C /* FakeKKTown */,
+				18FE86781D127B61007AEF6C /* FakeKKTownTests */,
+				18FE86831D127B61007AEF6C /* FakeKKTownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FE86631D127B60007AEF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE86731D127B60007AEF6C /* LaunchScreen.storyboard in Resources */,
+				18FE86701D127B60007AEF6C /* Assets.xcassets in Resources */,
+				18FE866E1D127B60007AEF6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE86771D127B61007AEF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE86821D127B61007AEF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FE86611D127B60007AEF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE866B1D127B60007AEF6C /* ViewController.swift in Sources */,
+				18FE86691D127B60007AEF6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE86751D127B61007AEF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE867E1D127B61007AEF6C /* FakeKKTownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FE86801D127B61007AEF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE86891D127B61007AEF6C /* FakeKKTownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FE867B1D127B61007AEF6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE86641D127B60007AEF6C /* FakeKKTown */;
+			targetProxy = 18FE867A1D127B61007AEF6C /* PBXContainerItemProxy */;
+		};
+		18FE86861D127B61007AEF6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FE86641D127B60007AEF6C /* FakeKKTown */;
+			targetProxy = 18FE86851D127B61007AEF6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FE866C1D127B60007AEF6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE866D1D127B60007AEF6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FE86711D127B60007AEF6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FE86721D127B60007AEF6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FE868B1D127B61007AEF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FE868C1D127B61007AEF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FE868E1D127B61007AEF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FakeKKTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capslock.FakeKKTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FE868F1D127B61007AEF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FakeKKTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capslock.FakeKKTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FE86911D127B61007AEF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FakeKKTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capslock.FakeKKTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeKKTown.app/FakeKKTown";
+			};
+			name = Debug;
+		};
+		18FE86921D127B61007AEF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FakeKKTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capslock.FakeKKTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeKKTown.app/FakeKKTown";
+			};
+			name = Release;
+		};
+		18FE86941D127B61007AEF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FakeKKTownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capslock.FakeKKTownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FakeKKTown;
+			};
+			name = Debug;
+		};
+		18FE86951D127B61007AEF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FakeKKTownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.capslock.FakeKKTownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FakeKKTown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FE86601D127B60007AEF6C /* Build configuration list for PBXProject "FakeKKTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE868B1D127B61007AEF6C /* Debug */,
+				18FE868C1D127B61007AEF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FE868D1D127B61007AEF6C /* Build configuration list for PBXNativeTarget "FakeKKTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE868E1D127B61007AEF6C /* Debug */,
+				18FE868F1D127B61007AEF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FE86901D127B61007AEF6C /* Build configuration list for PBXNativeTarget "FakeKKTownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE86911D127B61007AEF6C /* Debug */,
+				18FE86921D127B61007AEF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FE86931D127B61007AEF6C /* Build configuration list for PBXNativeTarget "FakeKKTownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE86941D127B61007AEF6C /* Debug */,
+				18FE86951D127B61007AEF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FE865D1D127B60007AEF6C /* Project object */;
+}
