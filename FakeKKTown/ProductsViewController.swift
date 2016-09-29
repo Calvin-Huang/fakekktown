@@ -110,16 +110,14 @@ class ProductsViewController: UIViewController {
     }
     
     fileprivate func scrollCenterTabItem() {
-        let scrollView = tabList
+        let currentOffset = tabList.contentOffset
+        let remainder = currentOffset.x.truncatingRemainder(dividingBy: TabListItem.itemSize.width)
         
-        let currentOffset = scrollView?.contentOffset
-        let remainder = currentOffset?.x.truncatingRemainder(dividingBy: TabListItem.itemSize.width)
-        
-        let targetOffsetX = floor((currentOffset?.x)! / TabListItem.itemSize.width) * TabListItem.itemSize.width + round(remainder! / TabListItem.itemSize.width) * TabListItem.itemSize.width
+        let targetOffsetX = floor(currentOffset.x / TabListItem.itemSize.width) * TabListItem.itemSize.width + round(remainder / TabListItem.itemSize.width) * TabListItem.itemSize.width
         
         UIView.animate(withDuration: 0.2, animations: {
             self.activeIndicator.center = CGPoint(x: targetOffsetX + self.view.center.x, y: self.activeIndicator.center.y)
-            scrollView?.contentOffset = CGPoint(x: targetOffsetX, y: (scrollView?.contentOffset.y)!)
+            self.tabList.contentOffset = CGPoint(x: targetOffsetX, y: self.tabList.contentOffset.y)
         }) 
     }
 
