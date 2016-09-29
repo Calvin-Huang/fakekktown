@@ -66,6 +66,9 @@ class ProductsViewController: UIViewController {
     fileprivate func configureTabListOnScrolling() {
         tabList.rx
             .didEndDragging
+            .filter { (scrollView: UIScrollView, willDecelerate: Bool) -> Bool in
+                return !scrollView.isDecelerating && !willDecelerate
+            }
             .subscribe(
                 onNext: { [weak self] (scrollView: UIScrollView, willDecelerate: Bool) in
                     self?.scrollCenterTabItem()
