@@ -16,6 +16,10 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
 
 #CocoaPod
 Pods/*

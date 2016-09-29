@@ -14,7 +14,7 @@ struct Category: Mappable {
     var title: String!
     var icon: String!
     
-    init?(_ map: Map) {
+    init?(map: Map) {
         
     }
     

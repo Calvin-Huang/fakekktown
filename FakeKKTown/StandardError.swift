@@ -9,7 +9,7 @@
 import Foundation
 
 enum StandardError: Int {
-    case ConfigError
+    case configError
     
     func toError() -> NSError {
         return NSError(domain: "Standard Error", code: self.rawValue, userInfo: nil)

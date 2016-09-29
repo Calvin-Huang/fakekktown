@@ -12,14 +12,15 @@ import ObjectMapper
 
 struct TabListViewModel {
     let categories: Variable<[Category]> = {
-        var returnCategories = Variable([Category]())
-        
-        if let configFilePath = NSBundle.mainBundle().pathForResource("Categories", ofType: "json"), let categoryModels = Mapper<Category>().mapArray(try! String(contentsOfFile: configFilePath)) {
-            returnCategories.value = categoryModels
+        guard
+            let configFilePath = Bundle.main.path(forResource: "Categories", ofType: "json"),
+            let categoryModels = Mapper<Category>().mapArray(JSONString: try! String(contentsOfFile: configFilePath))
+            else {
+                return Variable([Category]())
         }
         
-        return returnCategories
+        return Variable(categoryModels)
     }()
     
-    var activedCategory: Variable<Category!> = Variable(nil)
+    var activedCategory: Variable<Category?> = Variable(nil)
 }

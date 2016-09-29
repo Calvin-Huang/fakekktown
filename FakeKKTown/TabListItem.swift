@@ -12,7 +12,7 @@ import RxSwift
 import RxCocoa
 
 class TabListItem: UICollectionViewCell, CollectionCellProtocol {
-    static var itemSize: CGSize { return CGSize(width: UIScreen.mainScreen().bounds.width / 3, height: 95) }
+    static var itemSize: CGSize { return CGSize(width: UIScreen.main.bounds.width / 3, height: 95) }
     static var reuseIdentifier: String { return "\(TabListItem.self)" }
     
     var disposeBag: DisposeBag?

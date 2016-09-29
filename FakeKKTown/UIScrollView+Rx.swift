@@ -9,15 +9,18 @@
 import RxSwift
 import RxCocoa
 
-extension UIScrollView {
-    public var rx_scrollViewDidEndDragging: Observable<(UIScrollView, Bool)> {
-        return rx_delegate.observe(#selector(UIScrollViewDelegate.scrollViewDidEndDragging(_:willDecelerate:)))
+extension Reactive where Base: UIScrollView {
+    var didEndDragging: Observable<(UIScrollView, Bool)> {
+        return delegate
+            .observe(#selector(UIScrollViewDelegate.scrollViewDidEndDragging(_:willDecelerate:)))
             .map {
                 return ($0[0] as! UIScrollView, $0[1] as! Bool)
             }
     }
-    public var rx_scrollViewDidEndDecelerating: Observable<UIScrollView> {
-        return rx_delegate.observe(#selector(UIScrollViewDelegate.scrollViewDidEndDecelerating(_:)))
+    
+    var didEndDecelerating: Observable<UIScrollView> {
+        return delegate
+            .observe(#selector(UIScrollViewDelegate.scrollViewDidEndDecelerating(_:)))
             .map {
                 return $0[0] as! UIScrollView
             }
